@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img {
+    width: 15rem;
+    align-self: center;
+}
+
+form {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label,
+input {
+    font-size: 1.1rem;
+}
+
+h1 {
+    margin: 2rem auto;
+}
+
+h2 {
+    padding: 0 2rem 0.3rem;
+    border-bottom: 2px grey solid;
+}
+
+#instruction {
+    position: relative;
+    margin: 0 auto 1rem;
+}
+
+span {
+    font-weight: bold;
+}
+
+#customer_agree {
+    margin-top: 2rem;
+}
+
+#customer_agree_label {
+    background: yellow;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+#submit {
+    margin: 2rem 0;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+}

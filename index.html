@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawpaw Spa & Grooming Customer Form</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+    <img src="./styles/files/full logo.png">
+    <h1>New Client Profile & Agreement</h1>
+    <span id="instruction">Please fill the forms, read the agreements, and press the "Submit" button. Thanks!</span>
+    <form action="https://api.staticforms.xyz/submit" method="post" name="NewCustomerInfo">
+        <h2>Owner Details</h2>
+        <input type="hidden" name="accessKey" value="f2a34d53-4d84-41a1-ad01-18001a1bae99">
+        <input type="hidden" name="subject" value="New Customer Information">
+        <label for="$customer_first_name">First Name*</label><br>
+        <input type="text" name="$customer_first_name" id="customer_first_name" required>
+        <br><br>
+        <label for="$customer_last_name">Last Name*</label><br>
+        <input type="text" name="$customer_last_name" id="customer_last_name" required>
+        <br><br>
+        <label for="$customer_phone">Phone*</label><br>
+        <input type="number" name="$customer_phone" id="customer_phone" required>
+        <br><br>
+        <label for="$customer_email">Email*</label><br>
+        <input type="email" name="$customer_email" id="customer_email" required>
+        <br><br>
+        <label for="$customer_address">Address*</label><br>
+        <input type="text" name="$customer_address" id="customer_address" required>
+        <br><br>
+        <label for="$customer_agent">Agent (optional)</label><br>
+        <input type="text" name="$customer_agent" id="customer_agent">
+        <br><br>
+        <hr>
+        <h2>Pet Info</h2>
+        <label for="$pet_name">Name*</label><br>
+        <input type="text" name="$pet_name" id="pet_name" required>
+        <br><br>
+        <label for="$pet_birthday">Birthday*</label><br>
+        <input type="text" name="$pet_birthday" id="pet_birthday" required>
+        <br><br>
+        <label for="$pet_gender">Gender*</label><br>
+        <input type="text" name="$pet_gender" id="pet_gender" required>
+        <br><br>
+        <label for="$pet_weight">Weight (lb)*</label><br>
+        <input type="text" name="$pet_weight" id="pet_weight" required>
+        <br><br>
+        <label for="$pet_breed">Breed*</label><br>
+        <input type="text" name="$pet_breed" id="pet_breed" required>
+        <br><br>
+        <label for="$pet_color">Color*</label><br>
+        <input type="text" name="$pet_color" id="pet_color" required>
+        <br><br>
+        <label for="$pet_markings">Markings (optional)</label><br>
+        <input type="text" name="$pet_markings" id="pet_markings">
+        <br><br>
+        <label for="$pet_vaccine">Vaccine up to date? Y/N*</label><br>
+        <select name="$pet_name" id="pet_name">
+            <option value="yes" selected>Yes</option>
+            <option value="no">No</option>
+        </select>
+        <br><br>
+        <label for="$pet_comments">Health Concerns / Comments (optional)</label><br>
+        <textarea name="$pet_comments" id="pet_comments" cols="30" rows="10"></textarea>
+        <br><br>
+        <hr>
+        <article>
+            <span>DISCLAIMER: PLEASE READ THIS AGREEMENT CAREFULLY BEFORE CHECKING THE BOX ON THE BOTTOM</span><br>
+            <br>
+            <span>Pre-Existing Conditions/Waiver</span><br>
+            You agree that Paw Paw is not responsible for any known or unknown pre-existing or degenerative medical
+            conditions (or the aggravation of such condition) such as heart disease, arthritis, intervertebral disc
+            disease (IVDD), cruciate ligament tears, brachycephalic syndrome infections, or any other medical problem
+            that may be affected by the grooming process. You understand that shaving / de-matting a matted pet may
+            reveal pre-existing skin conditions that were unable to be identified prior to shaving or de-matting and
+            that Paw Paw is not responsible for issues that are revealed by or arise due to shaving/ de-matting a matted
+            pet including skin irritations, poor hair re-growth, coat color changes, nicks to moles or skin growths,
+            aural hematomas, and odd behaviors. In the event mats are found, if pet could be de-matted, your stylist
+            will de-mat the pet with additional charge; if mats are not able to be de-matted, you authorize our stylist
+            to shave the matted area(s).<br>
+            <br>
+            <span>Veterinary Treatment</span><br>
+            In the unlikely event your pet becomes ill, injured, or requires medical attention, Paw Paw will attempt to
+            notify you or your emergency contact as quickly as possible at the phone number(s) you provided. If we
+            cannot reach you or your emergency contact, or in the case of an emergency, you authorize Paw Paw to serve
+            as your Agent and agree that Paw Paw may seek veterinary care and make health care decisions at your
+            expense. You hereby knowingly and with informed consent,
+            authorize the release of all veterinary records to Paw Paw for any medical treatment received by your pet in
+            possible connection with service.<br>
+            <br>
+            <span>Vaccinations</span><br>
+            Paw Paw requires proof that your pet’s Rabies vaccine is current and any other vaccines required by the
+            city. Also, Paw Paw strongly recommends that your pet be vaccinated against certain infectious conditions,
+            including DHPP, Leptospirosis Bordetella, and Canine Influenza. It is still possible for vaccinated pets to
+            become ill with an infectious condition despite being vaccinated. You agree that you will not hold Paw Paw
+            liable in the event your pet becomes ill with an infectious condition during or after the service.<br>
+            <br>
+            <span>Allergic/Adverse Reactions</span><br>
+            You agree that Paw Paw is not responsible for allergic reactions resulting from the manufacturer-recommended
+            usage of any products. Although a pet may experience an allergic reaction to grooming products at any time,
+            flee and tick products are associated with higher incidence of reactions. Please consult your veterinarian
+            prior to having your pet treated if you have any questions concerning your pet’s sensitivity to such
+            treatments. IF FRONTLINE PLUS FOR DOGS HAS BEEN APPLIED, AVOID CONTACT WITH TREATED AREA UNTIL DTY. DO NOT
+            ALLOW THE PRODUCT TO BE INGESTED. DO NOT USE FRONTLINE PLUS FOR DOG, ON CATS.<br>
+            <br>
+            <span>Service Policies Abandonment</span><br>
+            Your pet will be dried using a kennel dryer or velocity dryer (however, as a policy, we do not use kennel
+            dryers on brachycephalic breeds or senior dogs). If you have a specific request for a drying method, it is
+            your responsibility to advise us. Your pet will be tethered during the service. If we feel the safety or
+            well-being of your pet and /or and associate is at risk, a muzzle may be used, or we may refuse or
+            discontinue service. An Express Groom is available for an additional charge if you feel that your dog would
+            be benefit for any reason including, but not limited to, pre-existing medical conditions, breed-related
+            conformation, or sensitivity to stress, noise and kenneling, and required the pet to be picked up at service
+            completion. Any pet not picked up within 24 hours of completion of a service may be, at our sole discretion,
+            turned over to humane society or adoption agency.<br>
+            <br>
+            <span>Customer Information/indemnification</span><br>
+            In the event you pet is involved in an incident (e.g. biting a person or another pet) (“Incident”), you
+            hereby authorize PawPaw to release your name and contact information to any party involved in the Incident
+            and/or the appropriate governmental authority. You agree to defend and indemnify Paw Paw for any claims,
+            damages, or costs arising out of or related to any Incident.<br>
+            <br>
+            <span>Photo/Video Release</span><br>
+            We may take a photo of your pet while you pet is receiving services (“Photo/Video”). You hereby grant Paw
+            Paw Pets Ltd. and its affiliates the perpetual, irrevocable royalty- free right and license to publish,
+            distribute, adapt, modify, or otherwise use the Photo/Video, or any portion thereof, in any manner for any
+            commercial or non-commercial purpose without notice to you/your review or approval.<br>
+            <br>
+            <span>Agreement</span><br>
+            If filling this form and agreement online, you agree that clicking the “ I Accept” button acts as your
+            electronic signature, having the seme effect as an original signature, and will constitute your acceptance
+            of the terms and conditions herein, YOU AGREE THAT ALL INFORMATION YOU PROVIDED HEREIN IS CORRECT AND
+            COMPLETE, AND THAT IT IS YOUR RESPONSIBILITY TO ADVISE A PAWPAW ASSOCIATE OF ANY CHANGES TO YOUR RESPONSES
+            HEREIN AT TIME OF CHECK-IN.
+        </article>
+        <hr>
+        <div>
+            <input type="checkbox" name="$customer_agree" id="customer_agree" required>
+            <label for="$customer_agree" id="customer_agree_label">I acknowledge that I have read and do hereby
+                accept the terms and conditions contained in this agreement.</label><br>
+        </div>
+        <input type="hidden" name="redirectTo" value="./pages/thanks.html">
+        <input type="submit" value="Submit" id="submit">
+    </form>
+</body>
+
+</html>
